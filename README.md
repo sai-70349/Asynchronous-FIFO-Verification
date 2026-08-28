@@ -88,4 +88,22 @@ The following test cases were implemented and verified for the Asynchronous FIFO
 | Empty Test      | Verifies FIFO behavior when the FIFO reaches the empty condition.        |
 | Underflow Test  | Verifies FIFO behavior when a read is attempted while the FIFO is empty. |
 
+## Assertions and Functional Coverage
+
+### Assertions
+
+Procedural assertions are used to verify successful transaction randomization:
+
+```systemverilog
+assert(randomize());
+```
+
+The assertion ensures that the `randomize()` operation succeeds before the randomized transaction is used.
+
+### Functional Coverage
+
+Functional coverage is implemented to measure the verification of important FIFO scenarios and transaction behavior.
+
+Coverage components are included for both the read and write sides of the verification environment.
+
 
