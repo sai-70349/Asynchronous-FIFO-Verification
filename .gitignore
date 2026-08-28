@@ -1,0 +1,6 @@
+work/
+covhtmlreport/
+*.ucdb
+*.wlf
+*.vstf
+wlft*
