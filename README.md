@@ -22,3 +22,15 @@ The testbench includes:
 * Scoreboard
 * Functional Coverage
 * Assertions
+
+## Key Verification Features
+
+* Verified FIFO **read and write operations**
+* Verified **data integrity** between write and read operations
+* Verified **FULL** and **EMPTY** FIFO conditions
+* Verified **overflow** and **underflow** conditions
+* Verified operation across **independent read and write clock domains**
+* Used **SystemVerilog testbench components** for functional verification
+* Implemented **functional coverage** to measure verification completeness
+* Used **Questa/ModelSim** for simulation and debugging
+
