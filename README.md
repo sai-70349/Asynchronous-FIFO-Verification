@@ -1,4 +1,4 @@
-##Asynchronous FIFO Verification
+## Asynchronous FIFO Verification
 
 Project Overview
 
