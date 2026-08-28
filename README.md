@@ -73,4 +73,19 @@ The Asynchronous FIFO verification environment is developed using SystemVerilog 
 * `fifo_common.sv`
 * `fifo_top.sv`
 
+## Test Cases
+
+The following test cases were implemented and verified for the Asynchronous FIFO:
+
+| Test Case       | Description                                                              |
+| --------------- | ------------------------------------------------------------------------ |
+| Reset Test      | Verifies FIFO behavior during and after reset.                           |
+| Write Test      | Verifies writing data into the FIFO.                                     |
+| Read Test       | Verifies reading data from the FIFO.                                     |
+| Write-Read Test | Verifies data integrity between write and read operations.               |
+| Full Test       | Verifies FIFO behavior when the FIFO reaches the full condition.         |
+| Overflow Test   | Verifies FIFO behavior when a write is attempted while the FIFO is full. |
+| Empty Test      | Verifies FIFO behavior when the FIFO reaches the empty condition.        |
+| Underflow Test  | Verifies FIFO behavior when a read is attempted while the FIFO is empty. |
+S
 
