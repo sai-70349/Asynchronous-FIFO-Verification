@@ -1,10 +1,10 @@
 ## Asynchronous FIFO Verification
 
-Project Overview
+## Project Overview
 
 This project focuses on the design verification of an Asynchronous FIFO using SystemVerilog. The verification environment is developed to verify FIFO read/write functionality, boundary conditions, and data integrity across asynchronous clock domains.
 
-Technologies Used
+## Technologies Used
 
 * Verilog HDL
 * SystemVerilog
@@ -12,7 +12,7 @@ Technologies Used
 * Functional Coverage
 * SystemVerilog Assertions
 
-Verification Environment
+## Verification Environment
 
 The testbench includes:
 
