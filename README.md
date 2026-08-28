@@ -106,4 +106,40 @@ Functional coverage is implemented to measure the verification of important FIFO
 
 Coverage components are included for both the read and write sides of the verification environment.
 
+## Project Structure
+
+```text
+Asynchronous-FIFO-Verification/
+│
+├── async_fifo.v              # Asynchronous FIFO RTL
+│
+├── fifo_top.sv               # Top-level testbench
+├── fifo_env.sv               # Verification environment
+├── fifo_intrf.sv             # FIFO interface
+├── fifo_common.sv            # Common definitions
+├── fifo_sbd.sv               # Scoreboard
+├── list.svh                  # File/package list
+│
+├── wr_agent.sv               # Write agent
+├── wr_bfm.sv                 # Write BFM
+├── wr_gen.sv                 # Write generator
+├── wr_mon.sv                 # Write monitor
+├── wr_cov.sv                 # Write-side coverage
+├── wr_tx.sv                  # Write transaction
+│
+├── rd_agent.sv               # Read agent
+├── rd_bfm.sv                 # Read BFM
+├── rd_gen.sv                 # Read generator
+├── rd_mon.sv                 # Read monitor
+├── rd_cov.sv                 # Read-side coverage
+├── rd_tx.sv                  # Read transaction
+│
+├── run.do                    # Simulation script
+├── cod_cov.do                # Coverage script
+├── exclusion.do             # Coverage exclusion script
+│
+├── .gitignore                # Git ignored files
+└── README.md                 # Project documentation
+```
+
 
