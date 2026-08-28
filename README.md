@@ -4,6 +4,13 @@
 
 This project focuses on the design verification of an Asynchronous FIFO using SystemVerilog. The verification environment is developed to verify FIFO read/write functionality, boundary conditions, and data integrity across asynchronous clock domains.
 
+## Project Objective
+
+The objective of this project is to verify the functionality and reliability of an Asynchronous FIFO operating between independent read and write clock domains.
+
+The verification focuses on data integrity, FIFO status conditions, and boundary scenarios including full, empty, overflow, and underflow conditions.
+
+
 ## Technologies Used
 
 * Verilog HDL
