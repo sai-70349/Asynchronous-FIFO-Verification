@@ -165,4 +165,36 @@ The testbench was simulated using **Questa/ModelSim**. Simulation scripts are pr
 
 Functional coverage was collected for the implemented read and write verification scenarios to evaluate verification completeness.
 
+## Simulation Waveforms
+
+### FIFO Full Condition
+
+The waveform demonstrates the FIFO reaching the full condition during write operations.
+
+![FIFO Full](screenshots/fifo_full.png)
+
+### FIFO Empty Condition
+
+The waveform demonstrates the FIFO reaching the empty condition during read operations.
+
+![FIFO Empty](screenshots/fifo_empty.png)
+
+### FIFO Overflow Condition
+
+The waveform demonstrates an attempted write operation when the FIFO is already full.
+
+![FIFO Overflow](screenshots/fifo_overflow.png)
+
+### FIFO Underflow Condition
+
+The waveform demonstrates an attempted read operation when the FIFO is already empty.
+
+![FIFO Underflow](screenshots/fifo_underflow.png)
+
+### Concurrent Read and Write
+
+The waveform demonstrates concurrent read and write operations in the asynchronous FIFO.
+
+![FIFO Concurrent Read Write](screenshots/fifo_concurrent.png)
+
 
