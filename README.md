@@ -142,4 +142,27 @@ Asynchronous-FIFO-Verification/
 └── README.md                 # Project documentation
 ```
 
+## Simulation and Verification Results
+
+The Asynchronous FIFO was verified through simulation using the implemented SystemVerilog verification environment.
+
+The following scenarios were verified:
+
+* Reset operation
+* FIFO write operation
+* FIFO read operation
+* Write and read data integrity
+* FIFO full condition
+* FIFO overflow condition
+* FIFO empty condition
+* FIFO underflow condition
+
+### Simulation
+
+The testbench was simulated using **Questa/ModelSim**. Simulation scripts are provided in the repository to simplify compilation and test execution.
+
+### Coverage
+
+Functional coverage was collected for the implemented read and write verification scenarios to evaluate verification completeness.
+
 
